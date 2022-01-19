@@ -1,7 +1,7 @@
-const { db } = require("../models/banco");
-const { step } = require("../models/stages");
+import { db } from "../models/banco.js"
+import { stages } from "../stages.js"
 
-function execute(user, msg) {
+export const stepFour = (user, msg) => {
     if (msg === "*") {
         db[user].stage = 0;
         return ["Pedido cancelado com sucesso"];
@@ -10,12 +10,10 @@ function execute(user, msg) {
     if (msg === "#") {
         db[user].stage = 5;
 
-        return step[5].obj.execute(user, "");
+        return stages[5].obj.execute(user, "");
     }
     return [
         "```Digite # para continuar ou * para cancelar```",
         `Confirma endereco de entrega : \n ${msg}`,
     ];
 }
-
-exports.execute = execute;

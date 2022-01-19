@@ -1,4 +1,4 @@
-const cardapio0 = {
+export const menu0 = {
   1: {
     description: "Produto 1",
     price: "100.0",
@@ -13,4 +13,3 @@ const cardapio0 = {
   },
 };
 
-exports.menu0 = cardapio0;

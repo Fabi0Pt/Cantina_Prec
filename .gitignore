@@ -1,4 +1,2 @@
 node_modules
-tokens
-*-lock.json
-*.lock
+dist

@@ -1,6 +1,6 @@
-const { db } = require("../models/banco");
+import { db } from "../models/banco.js"
 
-function execute(user, msg) {
+export const stepFive = (user, msg) => {
     db[user].stage = 0;
     return [
         "Obrigado pela preferencia.",
@@ -8,5 +8,3 @@ function execute(user, msg) {
         "Mais informações ligue para 33333-3311",
     ];
 }
-
-exports.execute = execute;

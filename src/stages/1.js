@@ -1,7 +1,7 @@
-const { menu0 } = require("../menu/menu0");
-const { db } = require("../models/banco");
+import { menu0 } from "../menu/menu0.js"
+import { db } from "../models/banco.js"
 
-function execute(user, msg) {
+export const stepTwo = (user, msg) => {
     if (msg === "*") {
         db[user].stage = 0;
         return ["Pedido cancelado com sucesso"];
@@ -26,5 +26,3 @@ function execute(user, msg) {
         `Item(${menu0[msg].description}) adiconado com sucesso`,
     ];
 }
-
-exports.execute = execute;

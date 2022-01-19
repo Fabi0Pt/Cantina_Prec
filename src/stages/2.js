@@ -1,6 +1,6 @@
-const { db } = require("../models/banco");
+import { db } from "../models/banco.js"
 
-function execute(user, msg) {
+export const stepThree = (user, msg) => {
     if (msg === "*") {
         db[user].stage = 0;
         return ["Pedido cancelado com sucesso"];
@@ -28,5 +28,3 @@ function execute(user, msg) {
         resumo,
     ];
 }
-
-exports.execute = execute;

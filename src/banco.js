@@ -1,3 +1,2 @@
-var banco = {};
+export const banco = {};
 
-exports.db = banco;
