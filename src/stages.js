@@ -23,6 +23,10 @@ var stages = {
     descricao: "Forma de Pagamento",
     obj: require("./stages/5"),
   },
+  6: {
+    descricao: "Salgados",
+    obj: require("./stages/6"),
+  },
 };
 
 exports.step = stages;

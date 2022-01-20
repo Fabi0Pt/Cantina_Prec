@@ -1,11 +1,9 @@
 const { menu0 } = require("../menu/menu0");
 const { db } = require("../models/banco");
-const { salgados } = require("../menu/salgados.js");
 const { doces } = require("../menu/doces.js");
-const { bebidas } = require("../menu/bebidas.js");
 
 function execute(user, msg) {
-  const productSelected = salgados[msg] || doces[msg] || bebidas[msg];
+  const productSelected = doces[msg]
   if (msg === "*") {
     db[user].stage = 0;
     return ["Pedido cancelado com sucesso"];

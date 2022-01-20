@@ -14,7 +14,6 @@ function execute(user, msg) {
     let resumo = "  RESUMO DO PEDIDO \n";
     let total = 0;
     db[user].itens.forEach((value) => {
-        console.log(value);
         resumo += `${value.description} ----------------  ${value.price} \n`;
 
         total += value.price;
