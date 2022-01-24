@@ -5,11 +5,17 @@
 🚀 Projeto criado com o intuito de auxiliar no controle de pedidos da Cantina da empresa "Precode" via WhatsApp.
 
 ✅ Badges
-https://img.shields.io/github/checks-status/Fabi0Pt/Cantina_Prec/0302c914a1598645716ff6894ee30c9c5dfd84e7
-https://img.shields.io/github/issues/Fabi0Pt/Cantina_Prec
-https://img.shields.io/github/forks/Fabi0Pt/Cantina_Prec
-https://img.shields.io/github/stars/Fabi0Pt/Cantina_Prec
-https://img.shields.io/github/license/Fabi0Pt/Cantina_Prec
+
+<img src="https://img.shields.io/github/checks-status/Fabi0Pt/Cantina_Prec/0302c914a1598645716ff6894ee30c9c5dfd84e7
+"/>
+<img src="https://img.shields.io/github/issues/Fabi0Pt/Cantina_Prec
+"/>
+<img src="https://img.shields.io/github/forks/Fabi0Pt/Cantina_Prec
+"/>
+<img src="https://img.shields.io/github/stars/Fabi0Pt/Cantina_Prec
+"/>
+<img src="https://img.shields.io/github/license/Fabi0Pt/Cantina_Prec
+"/>
 
 ## 🎲 Rodando nossa aplicação
 
