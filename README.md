@@ -29,7 +29,7 @@ $ npm install
 
 $ yarn dev
 
-<h1 align="center">Pronto, escaneie o código QR do Whatsapp e Voilà, aproveite!</h1>
+- Pronto, escaneie o código QR do Whatsapp e Voilà, aproveite!
 
 ## Tecnologias
 
