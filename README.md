@@ -6,8 +6,8 @@
 
 ✅ Badges
 
-<img href="https://img.shields.io/github/checks-status/Fabi0Pt/Cantina_Prec/0302c914a1598645716ff6894ee30c9c5dfd84e7
-"/>
+(<img href="https://img.shields.io/github/checks-status/Fabi0Pt/Cantina_Prec/0302c914a1598645716ff6894ee30c9c5dfd84e7
+"/>)
 <img href="https://img.shields.io/github/issues/Fabi0Pt/Cantina_Prec
 "/>
 <img href="https://img.shields.io/github/forks/Fabi0Pt/Cantina_Prec
