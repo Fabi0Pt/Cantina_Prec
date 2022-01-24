@@ -13,23 +13,23 @@ https://img.shields.io/github/license/Fabi0Pt/Cantina_Prec
 
 ## 🎲 Rodando nossa aplicação
 
-# Clone este repositório
+- Clone este repositório
 
 $ git clone github.com/Fabi0Pt/Cantina_Prec.git
 
-# Acesse a pasta do projeto no terminal/cmd
+- Acesse a pasta do projeto no terminal/cmd
 
 $ cd Cantina_Prec
 
-# Instale as dependências
+- Instale as dependências
 
 $ npm install
 
-# Execute a aplicação em modo de desenvolvimento
+- Execute a aplicação em modo de desenvolvimento
 
 $ yarn dev
 
-Pronto, escaneie o código QR do Whatsapp e Voilà, aproveite!
+<h1 align="center">Pronto, escaneie o código QR do Whatsapp e Voilà, aproveite!</h1>
 
 ## Tecnologias
 
