@@ -11,7 +11,7 @@ function execute(user, msg) {
   }
   if (msg === '#') {
     db[user].stage = 3
-    let resumo = '🗒️ *Resumo do Pedido:*: \n'
+    let resumo = '🗒️ *Resumo do Pedido:* \n'
     let total = 0
     db[user].itens.forEach(value => {
       resumo += `${value.description} =  ${value.price} \n`

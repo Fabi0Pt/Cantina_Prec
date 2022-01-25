@@ -9,17 +9,19 @@ function execute(user, msg) {
   }
 
   if (msg === '#') {
-    let resumo = '🗒️ *RESUMO DO PEDIDO*: \n'
+    db[user].stage = 3
+
+    let resumo = '🗒️ *Resumo do Pedido:* \n'
     let total = 0
     db[user].itens.forEach(value => {
-      resumo += `${value.description} ---  ${value.price} \n`
+      resumo += `${value.description} =  ${value.price} \n`
 
       total += value.price
     })
 
-    resumo += `*Total: ${total} reais*.`
+    resumo += `*Total: ${total} reais*.\n'Retornar essa mensagem com o comprovante de pagamento.'`
 
-    return ['*Confirmar #️⃣ \n\n Cancelar *️⃣*', resumo]
+    return ['Confirmar #️⃣ Cancelar *️⃣', resumo]
   }
 
   if (!productSelected) {
@@ -32,8 +34,7 @@ function execute(user, msg) {
   db[user].itens.push(productSelected)
   return [
     'Digite #️⃣ para finalizar ou *️⃣ para cancelar',
-    `✅*(${productSelected.description})* adicionado com sucesso! \n\n Digite outra opção:`,
-    resumo
+    `✅ - (${productSelected.description}) adicionado com sucesso!\n\n Digite outra opção:`
   ]
 }
 
