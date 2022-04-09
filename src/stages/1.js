@@ -14,12 +14,12 @@ function execute(user, msg) {
     let resumo = '🗒️ *Resumo do Pedido:* \n'
     let total = 0
     db[user].itens.forEach(value => {
-      resumo += `${value.description} =  ${value.price} \n`
+      resumo += `${value.description} = R$: ${value.price} \n`
 
       total += value.price
     })
 
-    resumo += `*Total: ${total} reais*.\n'Retornar essa mensagem com o comprovante de pagamento.'`
+    resumo += `\n\n*Total: ${total} reais*.\n\n'Retornar essa mensagem com o comprovante de pagamento.'`
 
     return ['Confirmar #️⃣ Cancelar *️⃣', resumo]
   }

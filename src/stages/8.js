@@ -18,7 +18,7 @@ function execute(user, msg) {
       total += value.price
     })
 
-    resumo += `*Total: ${total} reais*.\n'Retornar essa mensagem com o comprovante de pagamento.'`
+    resumo += `\n\n*Total: ${total} reais*.\n\n'Retornar essa mensagem com o comprovante de pagamento.'`
 
     return ['Confirmar #️⃣ Cancelar *️⃣', resumo]
   }

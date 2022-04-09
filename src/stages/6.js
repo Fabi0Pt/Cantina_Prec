@@ -9,17 +9,17 @@ function execute(user, msg) {
     Object.keys(salgados).forEach(value => {
       const element = salgados[value]
       if (value === '1') {
-        menu += `1️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `1️⃣ - *${element.description}* = R$: ${element.price} \n`
       } else if (value === '2') {
-        menu += `2️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `2️⃣ - *${element.description}* = R$: ${element.price} \n`
       } else if (value === '3') {
-        menu += `3️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `3️⃣ - *${element.description}* = R$: ${element.price} \n`
       } else if (value === '4') {
-        menu += `4️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `4️⃣ - *${element.description}* = R$: ${element.price} \n`
       } else if (value === '5') {
-        menu += `5️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `5️⃣ - *${element.description}* = R$: ${element.price} \n`
       } else if (value === '6') {
-        menu += `6️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `6️⃣ - *${element.description}* = R$: ${element.price} \n`
       }
     })
     db[user].stage = 1
@@ -29,29 +29,29 @@ function execute(user, msg) {
     Object.keys(doces).map(value => {
       const element = doces[value]
       if (value === '1') {
-        menu += `1️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `1️⃣ - *${element.description}* = R$: ${element.price} \n`
       } else if (value === '2') {
-        menu += `2️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `2️⃣ - *${element.description}* = R$: ${element.price} \n`
       } else if (value === '3') {
-        menu += `3️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `3️⃣ - *${element.description}* = R$: ${element.price} \n`
       } else if (value === '4') {
-        menu += `4️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `4️⃣ - *${element.description}* = R$: ${element.price} \n`
       } else if (value === '5') {
-        menu += `5️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `5️⃣ - *${element.description}* = R$: ${element.price} \n`
       } else if (value === '6') {
-        menu += `6️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `6️⃣ - *${element.description}* = R$: ${element.price} \n`
       } else if (value === '7') {
-        menu += `7️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `7️⃣ - *${element.description}* = R$: ${element.price} \n`
       } else if (value === '8') {
-        menu += `8️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `8️⃣ - *${element.description}* = R$: ${element.price} \n`
       } else if (value === '9') {
-        menu += `9️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `9️⃣ - *${element.description}* = R$: ${element.price} \n`
       } else if (value === '10') {
-        menu += `1️⃣0️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `1️⃣0️⃣ - *${element.description}* = R$: ${element.price} \n`
       } else if (value === '11') {
-        menu += `1️⃣1️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `1️⃣1️⃣ - *${element.description}* = R$: ${element.price} \n`
       } else if (value === '12') {
-        menu += `1️⃣2️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `1️⃣2️⃣ - *${element.description}* = R$: ${element.price} \n`
       }
     })
 
@@ -63,17 +63,17 @@ function execute(user, msg) {
     Object.keys(bebidas).map(value => {
       const element = bebidas[value]
       if (value === '1') {
-        menu += `1️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `1️⃣ - *${element.description}* = R$: ${element.price} \n`
       } else if (value === '2') {
-        menu += `2️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `2️⃣ - *${element.description}* = R$: ${element.price} \n`
       } else if (value === '3') {
-        menu += `3️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `3️⃣ - *${element.description}* = R$: ${element.price} \n`
       } else if (value === '4') {
-        menu += `4️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `4️⃣ - *${element.description}* = R$: ${element.price} \n`
       } else if (value === '5') {
-        menu += `5️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `5️⃣ - *${element.description}* = R$: ${element.price} \n`
       } else if (value === '6') {
-        menu += `6️⃣ - *${element.description}* =  ${element.price} \n`
+        menu += `6️⃣ - *${element.description}* = R$: ${element.price} \n`
       }
     })
 
